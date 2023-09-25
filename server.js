@@ -65,3 +65,19 @@ function promptUser(){
 
 
 
+
+function viewDepartments() {
+    connection.query(`SELECT * FROM departments ORDER BY id ASC;`, (err, res) => {
+        if(err) throw err;
+        console.table('\n', res, '\n');
+        promptUser();
+    })
+}
+
+function viewRoles() {
+    connection.query(`SELECT roles.id, roles.title, roles.salary, departments.NAME, departments.id FROM roles JOIN departments ON roles.department_id = departments.id ORDER BY roles.id ASC;`, (err, res) => {
+        if (err) throw err;
+        console.table('\n', res, '\n')
+        promptUser();
+    })
+}
