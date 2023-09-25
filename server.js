@@ -11,6 +11,7 @@ const connection = mysql.createConnection({
   database: 'trackingemployees_db',
 })
 
+
 connection.connect(function (err) {
     if (err) throw err;
     promptUser();
