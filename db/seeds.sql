@@ -13,7 +13,8 @@ VALUES
     ("Associate Sales", 90000, 2), 
     ("Lead Engineer", 250000, 1), 
     ("Engineer", 175000, 1), 
-    ("Accountant", 200000, 4), 
+    ("Accountant", 200000, 4),
+    ("Head Accountant", 300000, 4), 
     ("Head Lawyer", 500000, 3), 
     ("Associate Lawyer", 215000, 3);
 
