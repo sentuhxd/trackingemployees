@@ -13,7 +13,7 @@ Walk Through Video [Here]
 This project is under MIT
 
 ## Contributors
-There will be no contributors for this project.
+There will be no contributors for this project!
 
 ## Links
 * Github [Repo](https://github.com/sentuhxd/tracking-my-employees)
