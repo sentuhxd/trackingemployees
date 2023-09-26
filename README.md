@@ -16,5 +16,5 @@ This project is under MIT
 There will be no contributors for this project!
 
 ## Links
-* Github [Repo](https://github.com/sentuhxd/tracking-my-employees)
+* Github [Repo](https://github.com/sentuhxd/trackingemployees)
 * Github [Profile](https://github.com/sentuhxd)
